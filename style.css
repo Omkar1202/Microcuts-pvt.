@@ -10,7 +10,6 @@ html {
 }
 
 body {
-    font-size: 0.938rem;
     background-color: aquamarine;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
@@ -27,7 +26,7 @@ a {
 
 .container-nav {
     max-width: 1120px;
-    margin-inline: 1.5rem;
+    margin-inline: 1.5rem !important;
 }
 
 .header {
@@ -35,13 +34,13 @@ a {
     width: 100%;
     top: 0;
     left: 0;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     z-index: 100;
 }
 
 .nav {
     position: relative;
-    height: 6.5rem;
+    height: 6.5rem !important;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -58,7 +57,7 @@ a {
 .nav-close,
 .nav-toggle {
     display: flex;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 2rem;
     cursor: pointer;
 }
@@ -123,7 +122,7 @@ a {
 
 .nav-link {
     position: relative;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 1rem;
     font-weight: 500;
     display: inline-flex;
@@ -263,14 +262,6 @@ a {
 
 /*============================ ABOUT US========================== */
 
-.horizontal {
-    display: inline-block;
-    background-color: rgb(66, 92, 131);
-    width: 75%;
-    height: 5px;
-    margin-left: 12%;
-}
-
 #about-us {
     width: 100%;
     display: grid;
@@ -279,8 +270,8 @@ a {
 }
 
 .row {
-    width: 85%;
-    max-width: 1170px;
+    width: 95%;
+    max-width: 97%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 50px;
@@ -458,25 +449,20 @@ a {
     text-decoration: none;
 }
 
+html {
+    font-size: 62.5%;
+}
+
 :root {
     --primary: #ec994b;
     --white: #ffffff;
     --bg: #f5f5f5;
 }
 
-html {
-    font-size: 62.5%;
-    scroll-behavior: smooth;
-}
-
 @media (min-width: 1440px) {
     html {
         zoom: 1;
     }
-}
-
-body {
-    background: var(--bg);
 }
 
 .container {
@@ -496,6 +482,7 @@ body {
 }
 
 #tranding {
+    font-size: 62.5%;
     padding: 4rem 0;
 }
 
