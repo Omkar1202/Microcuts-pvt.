@@ -109,3 +109,6 @@ function adjustOpacity() {
 
 // Initialize the opacity adjustment when the page loads
 adjustOpacity();
+
+
+//==========================CLIENT-LOGO-SLIDER===========================================
