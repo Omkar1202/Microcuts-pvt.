@@ -4,6 +4,7 @@ const navMenu = document.getElementById("nav-menu");
 const navToggle = document.getElementById("nav-toggle");
 const navClose = document.getElementById("nav-close");
 
+
 // menu show 
 if (navToggle) {
     navToggle.addEventListener('click', () => {
