@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
     <script src="https://kit.fontawesome.com/f145da442c.js" crossorigin="anonymous"></script>
 
     <style>
@@ -24,6 +23,9 @@
                 height: auto;
                 width: 100vw;
             }
+            .btn {
+                width: 70%;
+            }
         }
         
         @media (max-width:426px) {
@@ -31,6 +33,43 @@
                 height: auto;
                 width: 100vw;
             }
+            .btn {
+                width: 80%;
+            }
+        }
+        
+        .Nav-Buttons {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .btn {
+            width: 100%;
+            margin: 0 5rem;
+            font-size: 1.5rem;
+            background: linear-gradient(to left, rgb(247, 155, 46), #eeecec);
+            display: flex;
+            justify-content: center;
+            margin-bottom: 1rem;
+        }
+        
+        .btn a {
+            text-decoration: none;
+            color: #000;
+            font-weight: 500;
+            padding: 1rem;
+        }
+        
+        .heading {
+            display: flex;
+            justify-content: center;
+            margin: 2rem 0;
+            position: relative;
+        }
+        
+        .heading h1 {
+            font-size: 3.5rem;
+            color: rgb(247, 155, 46);
         }
     </style>
 </head>
@@ -112,78 +151,209 @@
 
     <!--================ ERCOLLET================= -->
     <section id="Catlock">
-        <div id="ER-Collet">
-            <img class="proImg" src="products/ErCollet.jpg" alt="">
+
+        <div class="heading">
+            <h1>OUR PRODUCTS</h1>
         </div>
-        <div id="Tap-Collet">
-            <img class="proImg" src="products/TapCollet-1.jpg" alt="">
+
+        <div class="Nav-Buttons">
+            <div class="btn">
+                <a href="#ER-Collet">
+                    1. ER Collet
+                </a>
+            </div>
+            <div class="btn">
+                <a href="#Tap-Collet">
+                    2. ER-Tap Collet
+                </a>
+            </div>
+            <div class="btn">
+                <a href="#BTAdapters">
+                    3. BT Adapters
+                </a>
+            </div>
+            <div class="btn">
+                <a href="#CATSKAdapters">
+                    4. CAT/SK Adapters
+                </a>
+            </div>
+            <div class="btn">
+                <a href="#babyChunk">
+                    5. Baby Chunk
+                </a>
+            </div>
+            <div class="btn">
+                <a href="#PullStud">
+                    6. Pull Stud
+                </a>
+            </div>
+            <div class="btn">
+                <a href="#NutsSpanner">
+                    7. Nuts & Spanner
+                </a>
+            </div>
+            <div class="btn">
+                <a href="#ToolLocking">
+                    8. Tool Locking Device
+                </a>
+            </div>
         </div>
-        <div id="BTAdapters">
-            <img class="proImg" src="products/BTAdapters.jpg" alt="">
-        </div>
-        <div id="BTAdapters2">
-            <img class="proImg" src="products/BTAdapters2.jpg" alt="">
-        </div>
-        <div id="BTAdapters3">
-            <img class="proImg" src="products/BTAdapters3.jpg" alt="">
-        </div>
-        <div id="CATSKAdapters">
-            <img class="proImg" src="products/CATSKAdapters.jpg" alt="">
+
+        <div class="size-img">
+            <div id="ER-Collet">
+                <img class="proImg" src="products/ErCollet.jpg" alt="">
+            </div>
+            <div id="Tap-Collet">
+                <img class="proImg" src="products/TapCollet-1.jpg" alt="">
+            </div>
+            <div id="BTAdapters">
+                <img class="proImg" src="products/BTAdapters.jpg" alt="">
+            </div>
+            <div id="BTAdapters2">
+                <img class="proImg" src="products/BTAdapters2.jpg" alt="">
+            </div>
+            <div id="BTAdapters3">
+                <img class="proImg" src="products/BTAdapters3.jpg" alt="">
+            </div>
+            <div id="CATSKAdapters">
+                <img class="proImg" src="products/CATSKAdapters.jpg" alt="">
+            </div>
+            <div id="CATSK2">
+                <img class="proImg" src="products/CATSK2.jpg" alt="">
+            </div>
+            <div id="babyChunk">
+                <img class="proImg" src="products/babyChunk.jpg" alt="">
+            </div>
+            <div id="PullStud">
+                <img class="proImg" src="products/PullStud.jpg" alt="">
+            </div>
+            <div id="NutsSpanner">
+                <img class="proImg" src="products/Nuts&Spanner.jpg" alt="">
+            </div>
+            <div id="NutsSpanner">
+                <img class="proImg" src="products/Nuts&Spanner.jpg" alt="">
+            </div>
+            <div id="ToolLocking">
+                <img class="proImg" src="products/Loking.jpg  ">
+            </div>
         </div>
     </section>
 
     <!-- ====================================================== -->
-    <div style="margin-top: 10rem;"></div>
+    <div style="margin-top: 10rem; "></div>
     <!-- ====================================================== -->
     <footer>
-        <div class="footer-logo">
-            <img src="images/logo.png" alt="Nexus Ocean Logo" class="logo">
+        <div class="footer-logo ">
+            <img src="images/logo.png " alt="Nexus Ocean Logo " class="logo ">
         </div>
-        <div class="footer-container">
+        <div class="footer-container ">
             <!-- Logo and Description -->
 
 
             <!-- Contact Section -->
-            <div class="footer-section">
+            <div class="footer-section ">
                 <h3>Contact</h3>
                 <ul>
-                    <li><i class="fas fa-envelope"></i> info.microcuts@gmail.com</li>
-                    <li><i class="fas fa-phone"></i> +91 123456789</li>
-                    <li><i class="fas fa-map-marker-alt"></i> Waluj MIDC K Sector</li>
+                    <li><i class="fas fa-envelope "></i> info.microcuts@gmail.com</li>
+                    <li><i class="fas fa-phone "></i> +91 123456789</li>
+                    <li><i class="fas fa-map-marker-alt "></i> Waluj MIDC K Sector</li>
                 </ul>
             </div>
 
             <!-- Information Section -->
-            <div class="footer-section">
+            <div class="footer-section ">
                 <h3>Information</h3>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Products</a></li>
-                    <li><a href="#">Gallery</a></li>
+                    <li><a href="# ">Home</a></li>
+                    <li><a href="# ">About</a></li>
+                    <li><a href="# ">Products</a></li>
+                    <li><a href="# ">Gallery</a></li>
                 </ul>
             </div>
 
             <!-- Useful Links Section -->
-            <div class="footer-section">
+            <div class="footer-section ">
                 <h3>Useful Links</h3>
                 <ul>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Terms of Service</a></li>
-                    <li><a href="#">Data Policy</a></li>
+                    <li><a href="# ">Privacy Policy</a></li>
+                    <li><a href="# ">Terms of Service</a></li>
+                    <li><a href="# ">Data Policy</a></li>
                 </ul>
             </div>
         </div>
 
         <!-- Copyright and Social Media Icons -->
-        <div class="footer-bottom">
+        <div class="footer-bottom ">
             <p>&copy; 2024 Microcuts | All Rights Reserved.</p>
-            <!-- <div class="social-icons">
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-linkedin"></i></a>
+            <!-- <div class="social-icons ">
+                <a href="# "><i class="fab fa-twitter "></i></a>
+                <a href="# "><i class="fab fa-linkedin "></i></a>
             </div> -->
         </div>
     </footer>
+
+
+    <script>
+        //===================================================Navbar=================================
+        // Show Menu
+        const navMenu = document.getElementById("nav-menu");
+        const navToggle = document.getElementById("nav-toggle");
+        const navClose = document.getElementById("nav-close");
+
+
+        // menu show 
+        if (navToggle) {
+            navToggle.addEventListener('click', () => {
+                navMenu.classList.add('show-menu');
+            });
+        }
+
+        // Menu Close 
+
+        if (navClose) {
+            navClose.addEventListener('click', () => {
+                navMenu.classList.remove('show-menu');
+            });
+        }
+        //===================================================Slider=================================
+        // slider
+
+        const slides = document.querySelector('.slides');
+        const dots = document.querySelectorAll('.dot');
+        let index = 0;
+
+        function showSlide(n) {
+            if (n >= dots.length) index = 0;
+            if (n < 0) index = dots.length - 1;
+
+            slides.style.transform = `translateX(-${index * 100}%)`;
+
+            dots.forEach(dot => dot.classList.remove('active'));
+            dots[index].classList.add('active');
+        }
+
+        function nextSlide() {
+            index++;
+            showSlide(index);
+        }
+
+        function prevSlide() {
+            index--;
+            showSlide(index);
+        }
+
+        dots.forEach(dot => {
+            dot.addEventListener('click', () => {
+                index = parseInt(dot.getAttribute('data-slide'));
+                showSlide(index);
+            });
+        });
+
+        setInterval(nextSlide, 3000);
+
+        showSlide(index);
+    </script>
+
 
 </body>
 
