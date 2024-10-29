@@ -868,6 +868,12 @@
        }
    }
    
+   @media (max-width: 428px) {
+       .about-section {
+           height: 80vh;
+       }
+   }
+   
    .contact-container {
        display: flex;
        flex-wrap: wrap;
